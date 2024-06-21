@@ -84,8 +84,8 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
         'default': dj_database_url.config(
-            default= 'postgresql://djangocrud_y17h_user:y3p3nHLQeKv1aRjIxDj8CY69VtkRD31A@dpg-cpqclaqju9rs73a2hp30-a/djangocrud_y17h',
-            conn_max_age=600
+            #default= 'postgresql://djangocrud_y17h_user:y3p3nHLQeKv1aRjIxDj8CY69VtkRD31A@dpg-cpqclaqju9rs73a2hp30-a/djangocrud_y17h',
+            #conn_max_age=600
             )
     }
 }
